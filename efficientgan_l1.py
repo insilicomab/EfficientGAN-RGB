@@ -205,7 +205,7 @@ class Encoder(nn.Module):
 
 # ネットワークを可視化する
 
-summary(Encoder().to(device), (3, 96, 96))
+summary(Encoder().to(device), (3, opt.image_size, opt.image_size))
 
 """# Generator"""
 
